@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo{
+    margin-right: auto;
+    color: white;
+}
+.nav-area{
+    list-style: none;
+    /* border: 1px solid blue; */
+}
+.nav-area li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.nav-area li a{
+    color: rgb(255, 255, 255);
+}
+.container{
+   /* border: 1px solid red; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    align-items: center;
+}
+.container header{
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    width: 90%;
+    /* border: 1px solid black; */
+    z-index: 10;
+    display: flex;
+    align-items: center;
+}
+.container video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+}
+.heading{
+    position: relative;
+    z-index: 10;
+}
+.heading h2{
+    position: relative;
+    font-size: 4rem;
+    color: white;
+    font-weight: normal;
+    left: 80px;
+}
+
+/* welcome to our world */
+.discovery{
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    position: relative;
+    top: 30px;
+    /* border: 1px solid sandybrown; */
+}
+.container img{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid violet; */
+}
+.parent{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    /* border: 1px solid blue; */
+    position: absolute;
+}
+.box{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.box h1{
+    display: flex;
+    position: absolute;
+    left: 120px;
+}
+.box p{
+    display: flex;
+    top: 120px;
+    position: absolute;
+    left: 100px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.box img{
+    width: 70%;
+    height: 50%;
+    position: absolute;
+    top: 400px;
+    left: 90px;
+    display: flex;
+}
+.child{
+    position: absolute;
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+    /* border: 1px solid green; */
+    left: 680px;
+}
+.child img{
+    object-fit: cover;
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    left: 80px;
+}
+/* Land of discovery */
+.land{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    position: relative;
+    top: 100px;
+}
+.anothertext{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    position: relative;
+    /* border: 1px solid red; */
+    left: 120px;
+    top: 30px;
+    
+}
+.secondtext {
+    position: absolute;
+    top: 120px;
+    line-height: 25px;
+}
+.thirdtext {
+    display: flex;
+    position: absolute;
+    top: 200px;
+    flex-direction: row;
+}
+.thirdtext div{
+    margin-right: 30px;
+}
+
+.mainbox{
+    width: 100vw;
+    height: 140vh;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    position: relative;
+    top: 70px;
+    /* border: 1px solid red; */
+}
+#image1{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.blackbox{
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    z-index: 2;
+    right: 20px;
+}
+.temp{
+    display: flex;
+    position: relative;
+}
+.temp1{
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 50px;
+}
+.temp2{
+    position: absolute;
+    color: white;
+    top: 153px;
+    left: 120px;
+}
+.temp3{
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 220px;
+}
+.location1{
+    color: white;
+    top: 300px;
+    left:50px;
+    position: absolute;
+    font-weight: normal;
+}
+.location2{
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    top: 350px;
+    left: 45px;
+}
+.locationimg{
+    color: white;
+    position: absolute;
+    top: 450px;
+    left: 50px;
+}
+#image2{
+    bottom: 30px;
+    width: 20%;
+    height: 60%;
+    position: relative;
+    z-index: 3;
+    left: 1000px;
+}
+
+/*  */
+.imagecontainer{
+    margin-top: 70px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color:#000000;
+}
+.img1{
+    width: 33vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    /* border: 1px solid green; */
+}
+.img1 img{
+    width: 33vw;
+    height: 100vh;
+}
+.subtext h2{
+    top: 300px;
+    display: flex;
+    position: absolute;
+    z-index: 11;
+    color: white;
+    right: 200px
+}
+/* Footer section */
+.footer{
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    background-color: #062020;
+}
+.list1 li a{
+    color: white;
+}
+.footersection1{
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+}
+.footersection2{
+    width: 50vw;
+    height: 60vh;
+    /* border: 1px solid blue; */
+    display: flex;
+}
+.list1{
+    width: 16vw;
+    height: 40vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 70px;
+    list-style: none;
+    line-height: 45px;
+    color: white;
+}
+.footersection3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    color: white;
+}
