@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 70px;
+}
+.logo{
+    margin-right: auto;
+    color: white;
+}
+.nav-area{
+    list-style: none;
+}
+.nav-area li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.nav-area li a{
+    color: rgb(255, 255, 255);
+}
+.container{
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    align-items: center;
+}
+
+.container header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+}
+.heading{
+    position: relative;
+    z-index: 10;
+}
+.heading h2{
+    font-size: 4rem;
+    color: white;
+    font-weight: normal;
+}
+.middle{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:1px solid black; */
+}
+.middle pre{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 1.5em;
+    margin-bottom: 90px;
+}
+
+/* Third section */
+.imgtextSection{
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid red; */
+    display: flex;
+    position: relative;
+}
+.text{
+    /* border: 1px solid blue; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+}
+.imgtext{
+    position: absolute;
+    /* border: 1px solid green; */
+    width: 70%;
+    height: 90%;
+    top: 20px;
+    left: 120px;
+}
+.imgsection{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    left: 750px;
+}
+.imgsection img{
+    width: 40vw;
+height: 100vh;
+}
+.text h1{
+    padding: 30px;
+}
+.text p{
+line-height: 2rem;
+}
+
+/* z index section */
+.zindexsection{
+    width: 100vw;
+    height: 140vh;
+    display: flex;
+    position: relative;
+    background-color: lightgray;
+    top: 50px;
+}
+.firstBox{
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    position: relative;
+    border: 1px solid rgb(13, 13, 29);
+}
+.graybox{
+    width: 70%;
+    height: 40%;
+    background-color: gray;
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    top: 400px;
+    right: 320px;
+}
+.imageBox{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+}
+.imageBox img{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+}
+.blackBox{
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    display: flex;
+    background-color: white;
+    z-index: 3;
+    right: 100px;
+    top: 80px;
+}
+.content{
+    /* border: 1px solid black; */
+    position: absolute;
+    left: 60px;
+    top: 60px;
+}
+.content h2{
+    font-size: 40px;
+    font-weight: lighter;
+}
+.content p{
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 25px;
+}
+.buttondesign{
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: white;
+}
+/* For box 2 */
+.graybox2{
+width: 65%;
+    height: 40%;
+    background-color: gray;
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    top: 400px;
+    right: 140px;
+}
+.imageBox2{
+width: 80%;
+    height: 80%;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+}
+.imageBox2 img{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    left: 380px;
+}
+.blackBox2{
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    display: flex;
+    background-color: white;
+    z-index: 3;
+    right: 600px;
+    top: 120px;
+}
+/* our world section */
+.imgbox6{
+    width: 100vw;
+    height: 70vh;
+    /* border: 1px solid red; */
+    display: flex;
+    background-image: url("img/8.jpg");
+    justify-content: center;
+    align-items: center;
+    right: 20px;
+}
+ #imgId{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+ }
+ #h1Id{
+    position: relative;
+    z-index: 4;
+    color: white;
+}
+.buttonexplore{
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer design */
+
+.footer{
+    width: 100vw;
+    height: 60vh;
+    /* border: 1px solid red; */
+    display: flex;
+    background-color: #062020;
+}
+.footersection1{
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+}
+.footersection2{
+    width: 50vw;
+    height: 60vh;
+    /* border: 1px solid blue; */
+    display: flex;
+}
+.list1{
+    width: 16vw;
+    height: 40vh;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+    margin-top: 60px;
+    list-style: none;
+    line-height: 45px;
+    color: white;
+}
+.footersection3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    color: white;
+}
